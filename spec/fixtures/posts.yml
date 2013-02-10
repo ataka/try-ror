@@ -1,0 +1,16 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+full_post:
+  name: ataka
+  title: MyTitle
+  content: MyContent
+
+post_no_name:
+  name: 
+  title: MyTitle
+  content: "No name text."
+
+post_no_title:
+  name: ataka
+  title:
+  content: "No title text."
