@@ -14,11 +14,13 @@
 
   <div class="field">
     <%= f.label :name %><br />
-    <%= f.text_field :name %>
+    <%= f.text_field :name, :placeholder => "Your name",
+                            :required => "required" %>
   </div>
   <div class="field">
     <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <%= f.text_field :title, :placeholder => "Entry title",
+                             :required => "required" %>
   </div>
   <div class="field">
     <%= f.label :content %><br />
