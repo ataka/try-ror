@@ -10,3 +10,14 @@ body {
 .blogbar a:visited {
   color: white;
 }
+
+.entry_container {
+  border-left: solid 15px #aaf;
+  padding-left: 10px;
+}
+.entry_title a {
+  text-decoration: none;
+}
+.entry_footer {
+  margin-top: 0.5em;
+}
