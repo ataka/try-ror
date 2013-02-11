@@ -1,3 +1,8 @@
+<div class="blogbar">
+  <%= link_to 'New Post', new_post_path %> |
+  <%= link_to 'Home', "/" %>
+</div>
+
 <h1>Weblog</h1>
 
 <% @posts.each do |post| %>
@@ -11,7 +16,3 @@
     <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
   </div>
 <% end %>
-
-<br />
-
-<%= link_to 'New Post', new_post_path %>
