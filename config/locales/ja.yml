@@ -1,0 +1,22 @@
+ja:
+  hello: Blog の世界へようこそ!
+  my_blog: ブログ
+  nav:
+    back: 戻る
+    home: ホーム
+    show: 見る
+  blog:
+    post:
+      new: 投稿
+      edit: 編集
+      destroy: 削除
+      title: 記事タイトル
+      name: 名前
+      content: 本文
+      your_name: あなたの名前
+      comments: コメント
+      comment:
+        add: コメントを追加する
+        commenter: 名前
+        destroy: コメントを削除する
+  confirm: 本当によろしいですか?
