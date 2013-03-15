@@ -1,15 +1,15 @@
 <p>
-  <b><%= t('commenter') %>:</b>
+  <b><%= t('blog.post.comment.commenter') %>:</b>
   <%= comment.commenter %>
 </p>
 
 <p>
-  <b><%= t('comment'):</b>
+  <b><%= t('blog.post.comment'):</b>
   <%= comment.body %>
 </p>
 
 <p>
-  <%= link_to t('destroy_comment'), [comment.post, comment],
+  <%= link_to t('blog.post.comment.destroy'), [comment.post, comment],
               :confirm => t('confirm'),
               :method  => :delete %>
 </p>

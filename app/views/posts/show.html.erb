@@ -1,17 +1,17 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b><%= t('name') %>:</b>
+  <b><%= t('blog.post.name') %>:</b>
   <%= @post.name %>
 </p>
 
 <p>
-  <b><%= t('title') %>:</b>
+  <b><%= t('blog.post.title') %>:</b>
   <%= @post.title %>
 </p>
 
 <p>
-  <b><%= t('content') %>:</b>
+  <b><%= t('blog.post.content') %>:</b>
   <%= @post.content %>
 </p>
 
@@ -20,11 +20,11 @@
   <%= join_tags(@post) %>
 </p>
 
-<h2><%= t('comments') %></h2>
+<h2><%= t('blog.post.comments') %></h2>
 <%= render @post.comments %>
 
-<h2><%= t('add_comment') %>:</h2>
+<h2><%= t('blog.post.comment.add') %>:</h2>
 <%= render "comments/form" %>
 
-<%= link_to t('edit'), edit_post_path(@post) %> |
-<%= link_to t('back'), posts_path %>
+<%= link_to t('nav.edit'), edit_post_path(@post) %> |
+<%= link_to t('nav.back'), posts_path %>

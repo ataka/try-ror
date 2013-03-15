@@ -1,6 +1,6 @@
 <div class="blogbar">
-  <%= link_to t('new_post'), new_post_path %> |
-  <%= link_to t('home'), "/" %>  :||
+  <%= link_to t('blog.post.new'), new_post_path %> |
+  <%= link_to t('nav.home'), "/" %>  :||
 </div>
 
 <h1>Weblog</h1>
@@ -13,8 +13,8 @@
   </div>
   <div class="entry_footer">
     <%= post.name %> |
-    <%= link_to t('edit'), edit_post_path(post) %> |
-    <%= link_to t('destroy'), post, method: :delete, data: { confirm: t('confirm') } %>
+    <%= link_to t('blog.post.edit'), edit_post_path(post) %> |
+    <%= link_to t('blog.post.destroy'), post, method: :delete, data: { confirm: t('confirm') } %>
   </div>
 </div>
 <% end %>

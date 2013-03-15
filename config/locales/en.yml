@@ -4,20 +4,24 @@
 en:
   hello: Hello Blog!
   my_blog: My Blog
-  home: Home
-  new_post: New Post
-  edit: Edit
-  show: Show
-  destroy: Destroy
-  back: Back
-  your_name: Your name
-  entry_title: Entry title
-  name: Name
-  title: Title
-  content: Content
-  comments: Comments
-  add_comment: Add a comment
-  commenter: Commenter
-  destroy_comment: Destroy comment
+  nav:
+    back: Back
+    home: Home
+    show: Show
+  blog:
+    post:
+      new: New Post
+      edit: Edit
+      destroy: Destroy
+      title: Entry title
+      name: Name
+      content: Content
+      your_name: Your name
+      comments: Comments
+      comment: Comment
+      comment:
+        add: Add a comment
+        commenter: Commenter
+        destroy: Destroy comment
   confirm: Are you sure?
   
