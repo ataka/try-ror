@@ -4,7 +4,7 @@
 </p>
 
 <p>
-  <b><%= t('blog.post.comment'):</b>
+  <b><%= require('active_support'); t('blog.post.comments').singularize %>:</b>
   <%= comment.body %>
 </p>
 

@@ -18,7 +18,6 @@ en:
       content: Content
       your_name: Your name
       comments: Comments
-      comment: Comment
       comment:
         add: Add a comment
         commenter: Commenter
