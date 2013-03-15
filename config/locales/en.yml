@@ -2,4 +2,9 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  hello: Hello Blog!
+  my_blog: My Blog
+  home: Home
+  new_post: New Post
+  edit: Edit
+  destroy: Destroy
