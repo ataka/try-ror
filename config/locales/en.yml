@@ -2,6 +2,14 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
+  activerecord:
+    models:
+      post: 
+    attributes:
+      post:
+        name: Name
+        title: Title
+        content: Content
   hello: Hello Blog!
   my_blog: My Blog
   nav:
