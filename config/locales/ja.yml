@@ -1,7 +1,11 @@
 ja:
+  helpers:
+    submit:
+      create: "%{model}を投稿する"
   activerecord:
     models:
-      post:
+      post: 記事
+      comment: コメント
     attributes:
       post:
         name: 名前
