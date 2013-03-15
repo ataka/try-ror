@@ -7,4 +7,17 @@ en:
   home: Home
   new_post: New Post
   edit: Edit
+  show: Show
   destroy: Destroy
+  back: Back
+  your_name: Your name
+  entry_title: Entry title
+  name: Name
+  title: Title
+  content: Content
+  comments: Comments
+  add_comment: Add a comment
+  commenter: Commenter
+  destroy_comment: Destroy comment
+  confirm: Are you sure?
+  
