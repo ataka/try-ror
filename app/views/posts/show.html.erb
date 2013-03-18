@@ -1,5 +1,9 @@
 <p id="notice"><%= notice %></p>
 
+<%= image_tag @post.image.url %>
+<%= image_tag @post.image.url(:medium) %>
+<%= image_tag @post.image.url(:thumb) %>
+
 <p>
   <b><%= t('blog.post.name') %>:</b>
   <%= @post.name %>
