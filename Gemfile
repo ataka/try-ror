@@ -40,3 +40,4 @@ gem 'jquery-rails'
 gem 'execjs'
 gem 'therubyracer'
 gem 'rspec-rails', :group => [:development, :test]
+gem "paperclip", "~> 3.0"
