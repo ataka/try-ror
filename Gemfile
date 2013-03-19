@@ -41,3 +41,4 @@ gem 'execjs'
 gem 'therubyracer'
 gem 'rspec-rails', :group => [:development, :test]
 gem "paperclip", "~> 3.0"
+gem gem 'exception_notification', :require => 'exception_notifier'
