@@ -7,6 +7,10 @@
 *~
 *bak
 
+# Ignore .rbenv
+/.rbenv
+/.ruby-version
+
 # Ignore bundler config and gem local dir
 /.bundle
 /vendor/bundler
