@@ -28,6 +28,8 @@ class PostsController < ApplicationController
   # GET /posts/new
   # GET /posts/new.json
   def new
+    raise "exception sample"
+
     @post = Post.new
 
     respond_to do |format|
