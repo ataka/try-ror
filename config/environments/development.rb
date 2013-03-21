@@ -39,8 +39,9 @@ Blog::Application.configure do
   Paperclip.options[:command_path] = "/usr/bin/"
 
   #exception notification
+  config.action_mailer.delivery_method = :test # Print log, not email.
   config.middleware.use ExceptionNotifier,
-    :email_prefix => "[Try-RoR] "
+    :email_prefix => "[Try-RoR] ",
     :sender_address => %{"notifier" <notifier@example.com>},
     :exception_recipients => %w{exceptions@example.com}
 end
