@@ -44,3 +44,4 @@ gem "paperclip", "~> 3.0"
 gem 'exception_notification', :require => 'exception_notifier'
 gem 'sunspot_rails'
 gem 'sunspot_solr'
+gem 'will_paginate'

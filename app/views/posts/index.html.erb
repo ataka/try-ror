@@ -5,6 +5,20 @@
 
 <h1>Weblog</h1>
 
+<div class="results">
+  <% @search.each_hit_with_result do |hit, post| %>
+  <div class="result">
+	<h2><%= post.title %></h2>
+	<p><%= post.content %></p>
+  </div>
+  <% end %>
+</div>  
+<div class="pagination">
+  <%= will_paginate(@search.results) %>
+</div>
+	 
+</div>
+
 <% @posts.each do |post| %>
 <div class="entry_container">
   <h2 class="entry_title"><%= link_to post.title, post %></h2>

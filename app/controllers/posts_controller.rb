@@ -8,6 +8,10 @@ class PostsController < ApplicationController
   def index
     @posts = Post.order("created_at DESC")
 
+    @search = Post.search(:include => [:comments]) do
+      fulltext params[:q]
+    end
+
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @posts }
