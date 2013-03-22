@@ -37,6 +37,5 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-gem 'rspec'
 gem 'rspec-rails', :group => [:development, :test]
 gem 'therubyracer'
