@@ -1,4 +1,4 @@
-require 'vender/bundler/capistrano'
+require 'capistrano'
 load 'deploy/assets'
 
 set :application, "asagao"
